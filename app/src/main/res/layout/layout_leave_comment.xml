@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="50dip"
+        android:orientation="horizontal">
+
+        <ImageView
+            android:id="@+id/lvcmt_close"
+            android:layout_width="20dip"
+            android:layout_height="20dip"
+            android:layout_gravity="center_vertical"
+            android:src="@mipmap/icon_close_comment"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="20dip"
+            android:layout_marginLeft="10dip"
+            android:layout_gravity="center_vertical"
+            android:layout_weight="1"
+            android:textColor="@color/white"
+            android:textSize="12sp"
+            android:text="我要留言"/>
+
+        <TextView
+            android:layout_width="60dip"
+            android:layout_height="30dip"
+            android:layout_gravity="center_vertical"
+            android:gravity="center"
+            android:layout_marginRight="10dip"
+            android:text="发送"
+            android:background="@color/bg_comment_send"/>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:layout_weight="1"
+        android:background="@color/bg_comment_send">
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="2px"
+            android:layout_gravity="top"
+            android:background="@color/bg_comment_border"/>
+
+        <EditText
+            android:id="@+id/lvcmt_edittxt"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:layout_marginLeft="15dip"
+            android:layout_marginTop="15dip"
+            android:layout_marginRight="15dip"
+            android:layout_marginBottom="15dip"
+            android:gravity="top"
+            android:textSize="12sp"
+            android:hint="想问大胆问, 你的爱豆会回复你哦~"
+            android:inputType="textMultiLine"
+            android:background="@color/transparent"/>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <ImageView
+                android:id="@+id/lvcmt_emoji"
+                android:layout_width="25dip"
+                android:layout_height="25dip"
+                android:layout_marginLeft="15dip"
+                android:layout_marginBottom="15dip"
+                android:src="@mipmap/icon_emoji"/>
+
+            <ImageView
+                android:id="@+id/lvcmt_pics"
+                android:layout_width="25dip"
+                android:layout_height="25dip"
+                android:layout_marginLeft="25dip"
+                android:layout_marginBottom="15dip"
+                android:src="@mipmap/icon_pic"/>
+
+        </LinearLayout>
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="2px"
+            android:layout_gravity="bottom"
+            android:background="@color/bg_comment_border"/>
+
+    </LinearLayout>
+
+</LinearLayout>

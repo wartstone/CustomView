@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent">
+
+    <ViewFlipper
+        android:id="@+id/viewflipper"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:flipInterval="2000" >
+
+        <!--<include layout="@layout/viewflipper_one_layout" />-->
+
+        <!--<include layout="@layout/viewflipper_two_layout" />-->
+
+        <!--<include layout="@layout/viewflipper_three_layout" />-->
+
+        <!--<include layout="@layout/viewflipper_four_layout" />-->
+
+        <!--<include layout="@layout/viewflipper_five_layout" />-->
+    </ViewFlipper>
+
+    <!--
+    <com.xyz.vvv.PageControlView
+        android:id="@+id/viewflipper_indicator"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="25dip"
+        android:gravity="center_horizontal"
+        android:layout_alignParentBottom="true"
+        xyz:cell_width="@dimen/indicator_width"
+        xyz:cell_height="@dimen/indicator_height" />
+    -->
+
+</RelativeLayout>

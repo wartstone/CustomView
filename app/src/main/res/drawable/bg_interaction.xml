@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<layer-list xmlns:android="http://schemas.android.com/apk/res/android">
+    <item>
+        <shape>
+            <!-- 填充 -->
+            <solid android:color="#33ffffff" /> <!-- 定义填充的颜色值 -->
+
+        </shape>
+    </item>
+
+    <item android:left="0.5dip" android:top="0.5dip">
+        <shape>
+            <!-- 填充 -->
+            <solid android:color="#CC000000" /> <!-- 定义填充的颜色值 -->
+
+        </shape>
+    </item>
+
+</layer-list>

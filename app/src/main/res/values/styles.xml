@@ -1,0 +1,18 @@
+<resources>
+
+    <!-- Base application theme. -->
+    <style name="AppTheme" parent="android:Theme.Holo.Light.NoActionBar">
+        <item name="android:windowIsTranslucent">false</item>
+        <item name="android:windowContentOverlay">@null</item>
+    </style>
+
+    <declare-styleable name="circleView">
+        <attr name="textSize" format="dimension" />
+        <attr name="text" format="string" />
+        <attr name="circleColor" format="color" />
+        <attr name="arcColor" format="color" />
+        <attr name="textColor" format="color" />
+        <attr name="startAngle" format="integer" />
+        <attr name="sweepAngle" format="integer" />
+    </declare-styleable>
+</resources>

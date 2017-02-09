@@ -1,0 +1,108 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="#cccccc">
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="20dip"
+        android:layout_marginTop="10dip"
+        android:orientation="horizontal">
+
+        <ImageView
+            android:layout_width="25dip"
+            android:layout_height="25dip"
+            android:src="@mipmap/icon_close_preview"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="10dip"
+            android:layout_gravity="center_vertical"
+            android:text="明星同款"
+            android:textSize="13dip"
+            android:textColor="#ffffff"/>
+
+    </LinearLayout>
+
+    <HorizontalScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="15dip"
+        android:layout_marginLeft="20dip">
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <com.hill.customview.CartItemView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginRight="25dip">
+
+            </com.hill.customview.CartItemView>
+
+            <com.hill.customview.CartItemView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginRight="25dip">
+
+            </com.hill.customview.CartItemView>
+
+            <com.hill.customview.CartItemView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginRight="25dip">
+
+            </com.hill.customview.CartItemView>
+
+            <com.hill.customview.CartItemView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginRight="25dip">
+
+            </com.hill.customview.CartItemView>
+
+            <com.hill.customview.CartItemView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginRight="25dip">
+
+            </com.hill.customview.CartItemView>
+
+            <com.hill.customview.CartItemView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginRight="25dip">
+
+            </com.hill.customview.CartItemView>
+
+            <com.hill.customview.CartItemView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginRight="25dip">
+
+            </com.hill.customview.CartItemView>
+
+            <com.hill.customview.CartItemView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginRight="25dip">
+
+            </com.hill.customview.CartItemView>
+
+            <com.hill.customview.CartItemView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginRight="25dip">
+
+            </com.hill.customview.CartItemView>
+
+        </LinearLayout>
+
+    </HorizontalScrollView>
+
+</LinearLayout>

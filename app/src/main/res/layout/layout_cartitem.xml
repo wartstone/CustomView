@@ -1,0 +1,57 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="150dip"
+    android:layout_height="wrap_content">
+
+    <ImageView
+        android:id="@+id/cartitem_img"
+        android:layout_width="150dip"
+        android:layout_height="150dip"
+        android:src="@mipmap/cartitem_img"/>
+
+    <TextView
+        android:id="@+id/cartitem_title"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="15dip"
+        android:text="韩国GMT The Dreamer太阳眼睛"/>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="15dip">
+
+        <TextView
+            android:id="@+id/cartitem_price"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentLeft="true"
+            android:text="$588"
+            android:textColor="#cc0000" />
+
+        <TextView
+            android:id="@+id/cartitem_timetrack"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentRight="true"
+            android:text="出现于08:03 >"
+            android:textColor="#ffffff"
+            android:textSize="10dip"/>
+
+    </RelativeLayout>
+
+    <TextView
+        android:id="@+id/cartitem_purchase"
+        android:layout_width="wrap_content"
+        android:layout_height="30dip"
+        android:layout_marginTop="15dip"
+        android:paddingLeft="25dip"
+        android:paddingRight="25dip"
+        android:paddingTop="6dip"
+        android:paddingBottom="5dip"
+        android:text="加入购物车"
+        android:textColor="#ffffff"
+        android:textSize="13dip"
+        android:background="@drawable/bg_cartitem_purchase"/>
+
+</LinearLayout>

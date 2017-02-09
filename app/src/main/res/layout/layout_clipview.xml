@@ -1,0 +1,21 @@
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="180dip"
+    android:layout_height="200dip"
+    android:clipChildren="false"
+    android:clipToPadding="false">
+
+    <FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        android:layout_width="180dip"
+        android:layout_height="200dip"
+        android:layout_marginTop="30dip"
+        android:background="@drawable/bg_interaction">
+
+    </FrameLayout>
+
+    <ImageView
+        android:layout_width="50dip"
+        android:layout_height="50dip"
+        android:layout_marginLeft="10dip"
+        android:src="@mipmap/wd"/>
+
+</FrameLayout>

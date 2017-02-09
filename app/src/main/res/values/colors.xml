@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="vote_red">#ff3300</color>
+    <color name="vote_blue">#0066cc</color>
+    <color name="vote_bg_red">#ffcccc</color>
+    <color name="vote_bg_blue">#99ccff</color>
+
+    <color name="transparent">#00000000</color>
+    <color name="black">#000000</color>
+    <color name="white">#ffffff</color>
+    <color name="gray">#6e6e6e</color>
+
+    <color name="option_selected">#ffcc3333</color>
+    <color name="option_highest">#ffff6666</color>
+    <color name="option_higher">#ffff9999</color>
+    <color name="option_extra">#ffffcccc</color>
+
+    <color name="qa_selected">#ffc33333</color>
+    <color name="qa_unselected">#ffffffff</color>
+    <color name="qa_border">#ffcccccc</color>
+
+    <!-- for shadow layout -->
+
+    <color name="divider_color">#4dffffff</color>
+
+    <color name="blur_color">#cc202020</color>
+
+    <color name="ring_loading_color">#ffff6666</color>
+    <color name="play_progress_color">#ffcc3333</color>
+    <color name="login_btn_color">#ffcc0000</color>
+    <color name="tip_color">#99cc0000</color>
+
+    <color name="video_quanlity_selected_color">#ffcc3333</color>
+
+    <color name="edittext_cursor_color">#ffcc3333</color>
+
+    <color name="progress_color">#ffcc0000</color>
+
+    <color name="theme">#e73e04</color>
+
+    <color name="color_weibo">#ff6633</color>
+    <color name="color_wechat">#66cc00</color>
+
+    <color name="bg_comment_send">#666666</color>
+    <color name="bg_comment_content">#1affffff</color>
+    <color name="bg_comment_border">#4dffffff</color>
+
+    <color name="edittext_default">#4dffffff</color>
+
+    <color name="red">#cc0000</color>
+    <color name="light_white">#cccccc</color>
+</resources>

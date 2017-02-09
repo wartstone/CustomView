@@ -1,0 +1,136 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="horizontal"
+    android:layout_width="480dip"
+    android:layout_height="270dip">
+
+    <RelativeLayout
+        android:layout_width="195dip"
+        android:layout_height="match_parent">
+        
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:src="@mipmap/cartitemdetail"/>
+        
+        <View
+            android:layout_width="5dip"
+            android:layout_height="5dip"
+            android:background="#ff0000"
+            android:layout_marginBottom="20dip"
+            android:layout_alignParentBottom="true"
+            android:layout_marginLeft="80dip"/>
+
+        <View
+            android:layout_width="5dip"
+            android:layout_height="5dip"
+            android:background="#ff0000"
+            android:layout_marginBottom="20dip"
+            android:layout_alignParentBottom="true"
+            android:layout_marginLeft="90dip"/>
+
+        <View
+            android:layout_width="5dip"
+            android:layout_height="5dip"
+            android:background="#ff0000"
+            android:layout_marginBottom="20dip"
+            android:layout_alignParentBottom="true"
+            android:layout_marginLeft="100dip"/>
+
+        <View
+            android:layout_width="5dip"
+            android:layout_height="5dip"
+            android:background="#ff0000"
+            android:layout_marginBottom="20dip"
+            android:layout_alignParentBottom="true"
+            android:layout_marginLeft="110dip"/>
+
+
+    </RelativeLayout>
+    
+    <LinearLayout
+        android:layout_width="285dip"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:background="@drawable/bg_cartitemdetail">
+        
+        <ScrollView
+            android:layout_width="match_parent"
+            android:layout_height="180dip"
+            android:layout_marginTop="20dip"
+            android:layout_marginLeft="20dip">
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:orientation="vertical">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginRight="20dip"
+                    android:text="Onitsuka Tiger/鬼土虎MEXICO 66井柏然同款小白鞋"
+                    android:textColor="#ffffff"
+                    android:textSize="19dip"/>
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="25dip"
+                    android:layout_marginRight="20dip"
+                    android:text="以1962年的练习鞋为原型, 并于1966年研发出的第一双鞋面Onitsuka Tiger Stripes设计结合。 十字强补, 后套的柔软后跟及后跟设计都是其特色。"
+                    android:textColor="#ffffff"
+                    android:lineSpacingExtra="5dip"
+                    android:textSize="13dip"/>
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginRight="20dip"
+                    android:text="以1962年的练习鞋为原型, 并于1966年研发出的第一双鞋面Onitsuka Tiger Stripes设计结合。 十字强补, 后套的柔软后跟及后跟设计都是其特色。"
+                    android:textColor="#ffffff"
+                    android:lineSpacingExtra="5dip"
+                    android:textSize="13dip"/>
+
+            </LinearLayout>
+
+
+        </ScrollView>
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="30dip"
+            android:layout_marginTop="20dip"
+            android:layout_marginBottom="20dip"
+            android:layout_marginLeft="20dip"
+            android:layout_marginRight="20dip">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentLeft="true"
+                android:text="$588"
+                android:textSize="25dip"
+                android:textColor="#cc0000"/>
+
+            <TextView
+                android:id="@+id/cartitemdetail_purchase"
+                android:layout_width="wrap_content"
+                android:layout_height="30dip"
+                android:layout_alignParentRight="true"
+                android:paddingLeft="25dip"
+                android:paddingRight="25dip"
+                android:paddingTop="6dip"
+                android:paddingBottom="5dip"
+                android:text="加入购物车"
+                android:textColor="#ffffff"
+                android:textSize="13dip"
+                android:background="@drawable/bg_cartitem_purchase"/>
+
+
+        </RelativeLayout>
+        
+
+
+    </LinearLayout>
+
+</LinearLayout>

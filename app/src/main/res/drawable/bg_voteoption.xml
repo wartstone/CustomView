@@ -1,0 +1,7 @@
+<shape xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <solid android:color="#232323" /> <!-- 定义填充的颜色值 -->
+
+    <stroke android:width="0.5dip" android:color="#cc0000"/>
+
+</shape>
