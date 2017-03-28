@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.hill.customview.exoplayer.VideoDemo_Exo"
+    android:background="#fff">
+
+    <RelativeLayout
+        android:id="@+id/video_skin"
+        android:layout_width="match_parent"
+        android:layout_height="250dp"
+        android:background="#000">
+
+        <FrameLayout
+            android:id="@+id/video_frame"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_centerInParent="true"
+            >
+            <SurfaceView
+                android:id="@+id/surface_view"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_gravity="center"
+                android:visibility="gone"/>
+
+            <TextView
+                android:id="@+id/playerStateTextView"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textColor="#f00"
+                android:visibility="gone"
+                />
+
+            <TextView
+                android:id="@+id/prompt"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignTop="@+id/video_frame"
+                android:layout_gravity="bottom"
+                android:layout_marginBottom="40dp"
+                android:layout_marginLeft="10dp"
+                android:visibility="gone"
+                android:textSize="16dp"
+                android:textColor="#f0f"/>
+        </FrameLayout>
+
+        <RelativeLayout
+            android:id="@+id/video_control"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignParentBottom="true"
+            android:background="#000"
+            >
+            <ImageButton
+                android:id="@+id/py"
+                android:layout_width="30dp"
+                android:layout_height="30dp"
+                android:padding="5dp"
+                android:background="@mipmap/player"/>
+            <SeekBar
+                android:id="@+id/sk"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_centerVertical="true"
+                android:layout_toRightOf="@+id/py"
+                android:layout_toLeftOf="@+id/fs"/>
+            <ImageButton
+                android:id="@+id/fs"
+                android:layout_width="30dp"
+                android:layout_height="30dp"
+                android:padding="5dp"
+                android:layout_alignParentRight="true"
+                android:background="@mipmap/full"/>
+        </RelativeLayout>
+
+    </RelativeLayout>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/video_skin"
+        android:layout_marginTop="50dp"
+        android:text="下方的内容下方的内容下方的内容下方的内容下方的内容下方的内容下方的内容下方的内容"/>
+
+
+</RelativeLayout>
