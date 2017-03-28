@@ -4,6 +4,7 @@
     android:id="@+id/activity_main"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
+    android:padding="30dip"
     tools:context="com.hill.customview.MainActivity"
     android:background="#cccccc">
 
@@ -138,18 +139,19 @@
         <!--android:layout_height="300dip"-->
         <!--android:background="@color/vote_blue"/>-->
 
-    <com.hill.customview.photo.LeaveCommentView
-        android:layout_width="match_parent"
-        android:layout_height="match_parent"></com.hill.customview.photo.LeaveCommentView>
+    <!--<com.hill.customview.photo.LeaveCommentView-->
+        <!--android:layout_width="match_parent"-->
+        <!--android:layout_height="match_parent"></com.hill.customview.photo.LeaveCommentView>-->
 
     <!--<com.hill.customview.ClipView-->
         <!--android:layout_width="wrap_content"-->
         <!--android:layout_height="wrap_content"-->
         <!--android:layout_gravity="right|bottom"/>-->
 
-    <com.hill.customview.glidedemo.glideDemoActivity
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content" />
+    <com.hill.customview.views.BezierView
+        android:layout_width="100dip"
+        android:layout_height="100dip"
+        android:background="@android:color/transparent"/>
 
 
 </FrameLayout>
