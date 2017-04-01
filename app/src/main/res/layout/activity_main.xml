@@ -8,11 +8,12 @@
     tools:context="com.hill.customview.MainActivity"
     android:background="#cccccc">
 
-    <com.hill.customview.customdrawable.StateBorderImageView
+    <com.hill.customview.customdrawable.AnimatedStateBorderImageView
         android:layout_width="150dip"
         android:layout_height="150dip"
         android:layout_gravity="center"
         android:padding="8dip"
-        android:clickable="true"/>
+        android:clickable="true"
+        android:src="@mipmap/cartitem_img"/>
 
 </FrameLayout>
