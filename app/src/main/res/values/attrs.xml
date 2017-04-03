@@ -32,4 +32,10 @@
             <enum name="mirror" value="2" />
         </attr>
     </declare-styleable>
+
+    <declare-styleable name="RoundImage">
+        <attr name="riv_radius" format="dimension"/>
+        <attr name="riv_color" format="color"/>
+        <attr name="riv_lingshan" format="dimension"/>
+    </declare-styleable>
 </resources>
